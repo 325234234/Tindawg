@@ -1,0 +1,107 @@
+/* General setup */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+/* Layout */
+
+#container {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    box-shadow: 1px 1px 10px lightgrey;
+    border-radius: 20px;
+    width: 30em;
+    margin: 2em auto;
+}
+
+/* Nav bar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75em;
+}
+
+.nav_icon {
+    height: 2.25em;
+}
+
+/* Main image */
+
+main {
+    padding: 0.3em;
+    position: relative;
+}
+
+.main_image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image_text {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    color: white;
+    width: 70%;
+}
+
+.image_heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.image_subheading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.image_stamp {
+    position: absolute;
+    top: 8%;
+    left: 4%;
+
+    transform: rotate(-25deg);
+    width: 15em;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0 1em 1em 1em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    padding: 1em;    
+    background:#FFFFFF;
+}
+
+#btn_nope:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#btn_like:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;  
+}
